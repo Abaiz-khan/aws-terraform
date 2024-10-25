@@ -1,0 +1,37 @@
+**/.Terraform/**
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Terraform crash log files
+crash.log
+
+# Terraform provider cache directory
+.terraform/
+.terraform.lock.hcl
+
+# Archive files (zipped Lambda functions)
+*.zip
+
+# Ignore sensitive files, e.g. variable files with secrets
+*.tfvars
+
+# Ignore editor-specific files
+.idea/
+.vscode/
+*.swp
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore any local environment files
+.env
+.env.*
+
+# Lock files for dependencies
+package-lock.json
+yarn.lock
